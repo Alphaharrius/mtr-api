@@ -1,0 +1,24 @@
+{
+    "name": "mtr-api",
+    "version": "0.0.1",
+    "description": "APIs for MTR related information retrieval",
+    "author": "Alphaharrius <me@alphaharrius.cc>",
+    "license": "MIT",
+    "main": "app.js",
+    "type": "commonjs",
+    "keywords": [
+        "nodejs",
+        "bootstrap",
+        "express"
+    ],
+    "dependencies": {
+        "chai": "^5.1.2",
+        "express": "^4.16.4",
+        "mocha": "^11.0.1",
+        "nodemon": "^3.1.9"
+    },
+    "scripts": {
+        "test": "mocha",
+        "start": "node app.js"
+    }
+}
